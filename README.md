@@ -1,2 +1,2 @@
-# template-extension
-Template for pure java minestom extensions
+# SimpleLobby
+Minestom extension for lobby instances on servers

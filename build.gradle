@@ -10,7 +10,8 @@ plugins {
     id 'java'
 }
 
-def displayName = 'TemplateExtension'
+def displayName = 'SimpleLobby'
+
 group 'com.github.klainstom'
 version '1.0-SNAPSHOT'
 
@@ -53,4 +54,5 @@ build {
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
+    withSourcesJar()
 }
